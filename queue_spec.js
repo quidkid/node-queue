@@ -1,4 +1,7 @@
-var {Queue, Item} = require('./queue');
+"use strict";
+/* eslint-env jasmine */
+
+var Queue = require('./queue').Queue;
 var _ = require('underscore');
 
 // --------------------TESTS--------------------
